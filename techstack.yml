@@ -1,0 +1,43 @@
+repo_name: Zxce3/gwspamd
+report_id: 84f098a2a02cb84d8b08129dcd857a5d
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-08T17:13:55+00:00'
+requested_by: ammarfaizi2
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/Zxce3/gwspamd
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/Zxce3/gwspamd/blob/master/web/public/adminer.php
+  detection_source: web/public/adminer.php
+  last_updated_by: Ammar Faizi
+  last_updated_on: 2023-04-13 19:16:10.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Zxce3/gwspamd
+  detection_source: Repo Metadata
